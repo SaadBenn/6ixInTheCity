@@ -5,6 +5,7 @@ import { DrawerTransitionBase, RadSideDrawer, SlideInOnTopTransition } from "nat
 import { filter } from "rxjs/operators";
 import * as app from "tns-core-modules/application";
 
+
 @Component({
     selector: "ns-app",
     templateUrl: "app.component.html"
@@ -15,6 +16,7 @@ export class AppComponent implements OnInit {
 
     constructor(private router: Router, private routerExtensions: RouterExtensions) {
         // Use the component constructor to inject services.
+
     }
 
     ngOnInit(): void {
@@ -22,9 +24,14 @@ export class AppComponent implements OnInit {
         this._sideDrawerTransition = new SlideInOnTopTransition();
 
         this.router.events
-        .pipe(filter((event: any) => event instanceof NavigationEnd))
-        .subscribe((event: NavigationEnd) => this._activatedUrl = event.urlAfterRedirects);
+            .pipe(filter((event: any) => event instanceof NavigationEnd))
+            .subscribe((event: NavigationEnd) => this._activatedUrl = event.urlAfterRedirects);
+
+        // instantiate the plugin
+      
     }
+
+  
 
     get sideDrawerTransition(): DrawerTransitionBase {
         return this._sideDrawerTransition;

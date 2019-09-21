@@ -2,7 +2,8 @@
   "nativescript": {
     "id": "org.nativescript.SixInTheCity",
     "tns-android": {
-      "version": "6.1.1"
+      "version": "6.1.1",
+      "markingMode": "none"
     },
     "tns-ios": {
       "version": "6.1.0"
@@ -24,6 +25,9 @@
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "nativescript-angular": "~8.2.0",
+    "nativescript-lottie": "^2.1.0",
+    "nativescript-nfc": "^4.0.3",
+    "nativescript-svg": "^1.3.7",
     "nativescript-theme-core": "~1.0.6",
     "nativescript-ui-sidedrawer": "~7.0.0",
     "reflect-metadata": "~0.1.12",
@@ -33,7 +37,9 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "~8.2.0",
+    "@nativescript/schematics": "^0.7.1",
     "@ngtools/webpack": "~8.2.0",
+    "@schematics/angular": "^8.3.5",
     "codelyzer": "~4.5.0",
     "nativescript-dev-webpack": "~1.2.0",
     "node-sass": "^4.7.1",

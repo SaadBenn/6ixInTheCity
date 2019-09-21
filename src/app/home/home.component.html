@@ -15,7 +15,29 @@
     <Label class="action-bar-title" text="Home"></Label>
 </ActionBar>
 
-<GridLayout class="page page-content">
-    <Label class="page-icon fa" text="&#xf015;"></Label>
-    <Label class="page-placeholder" text="<!-- Page content goes here -->"></Label>
-</GridLayout>
+<StackLayout class="page content" height="100%" backgroundColor="#222">
+
+    <FlexboxLayout justifyContent="space-between" padding="40 25">
+        <Image src="~/app/images/menu.png" width="25" height="25" (tap)=onDrawerButtonTap()></Image>
+        <Button class="waiterBtn" text="Call Waiter" color="white"></Button>
+
+    </FlexboxLayout>
+    <StackLayout height="100%" backgroundColor="#fff" borderRadius="30 30 0 0" class="text-center">
+
+        <FlexboxLayout flexDirection="column" justifyContent="space-between" height="100%" paddingTop="20"
+            paddingBottom="30">
+            <StackLayout>
+                <Label class="tapHeading" text="Hello, Martin"></Label>
+
+            </StackLayout>
+
+            <!-- <Image src="~/app/images/NFCImage.png" width="80%" height="auto"></Image> -->
+            <StackLayout>
+                <LottieView width="100" height="150" [src]="src" [loop]="loop" [autoPlay]="autoPlay"
+                    (loaded)="lottieViewLoaded($event)"> </LottieView>
+            </StackLayout>
+            <Label text="tap on the beacon to order"></Label>
+        </FlexboxLayout>
+    </StackLayout>
+
+</StackLayout>
