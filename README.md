@@ -2,6 +2,9 @@
 
 ![OrdrUp](https://github.com/SaadBenn/6ixInTheCity/blob/master/OrdrUp.png)
 
+## Description
+
+### How might we leverage IoT technologies to simplify payment and streamline serving at small businesses?
 
 ## Contributors
 1. Saad Mushtaq
