@@ -15,7 +15,9 @@ Run `npm install` to install modules on your local machine
 
  Hit this endpoint with the following structure for the body: `http://localhost:2000/meals/add`
 
- POST
+
+ `POST /meals/add`
+
 `{
 	"title": "dessert",
 	"ingredients": [ "oil", "carlo"],
