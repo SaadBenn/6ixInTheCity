@@ -4,13 +4,13 @@ const ObjectId = require('mongoose').Types.ObjectId;
 mealsJSON = [{
 	"title": "OG Burger",
 	"ingredients": ["oil", "tomatoes", "carlo"],
-	"price": "10",
+	"price": "10"},
 
-	"title": "Poutine",
+	{"title": "Poutine",
 	"ingredients": ["oil", "tomatoes", "carlo"],
-	"price": "100",
+	"price": "100"},
 
-	"title": "Pizza",
+	{"title": "Pizza",
 	"ingredients": ["oil", "tomatoes", "carlo"],
 	"price": "1",
 }]
