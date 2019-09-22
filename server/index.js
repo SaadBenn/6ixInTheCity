@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const errorHandler = require('errorhandler');
 
-const uri = "mongodb+srv://user1:<password>@cluster0-3mvfx.mongodb.net/test?retryWrites=true&w=majority";
+const uri = "mongodb+srv://user1:rockstar0560@cluster0-3mvfx.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(uri, {
 	useUnifiedTopology: true,
 	useNewUrlParser: true
