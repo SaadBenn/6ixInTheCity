@@ -9,7 +9,18 @@ Run `npm install` to install modules on your local machine
 
  ### To get the menu from the database - endpoint
 
- Hit this endpoint: `http://localhost:2000/meals`
+ Hit this endpoint: `http://localhost:2000/meals/menu`
+
+ ### To add an item - make a post request
+
+ Hit this endpoint with the following structure for the body: `http://localhost:2000/meals/add`
+
+ POST
+`{
+	"title": "dessert",
+	"ingredients": [ "oil", "carlo"],
+	"price": "12"
+}`
 
  
 
