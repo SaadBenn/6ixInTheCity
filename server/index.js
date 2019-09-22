@@ -6,10 +6,14 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const errorHandler = require('errorhandler');
 
-// Configure mongoose's promise to global promise
-mongoose.promise = global.Promise;
-mongoose.connect("mongodb+srv://user1:rockstar0560@cluster0-3mvfx.mongodb.net/test?retryWrites=true&w=majority" );
-const port = process.env.PORT || 2000;
+const uri = "mongodb+srv://user1:<password>@cluster0-3mvfx.mongodb.net/test?retryWrites=true&w=majority";
+mongoose.connect(uri, {
+	useUnifiedTopology: true,
+	useNewUrlParser: true
+});
+
+var db = mongoose.connection;
+
 
 // set up the express app
 const app = express(); 
@@ -21,12 +25,13 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/', (req, res) => {
-	// res.status(200).send({
-	// 	success: 'true'
-	console.log(`listening at ${port}`);
-	// })
-});
+// routes
+console.log('before app.use in index.js')
+app.use('/meals', require('./routes/meals'));
+console.log('after app.use in index.js');
+
+// start the server
+const port = process.env.PORT || 2000;
 
 var server = app.listen(port, () => console.log(`Server running on port ${port}`));
 
