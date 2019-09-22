@@ -1,0 +1,32 @@
+
+
+<StackLayout class="page content" height="100%" backgroundColor="#222">
+
+    <FlexboxLayout justifyContent="space-between" padding="40 20 30 20">
+        <Image src="~/app/images/menu.png" width="25" height="25" (tap)=onDrawerButtonTap()></Image>
+    </FlexboxLayout>
+
+    <StackLayout height="100%" backgroundColor="#fff" borderRadius="30 30 0 0" class="text-center">
+         
+  
+
+        <FlexboxLayout flexDirection="column" height="100%" paddingTop = "30">
+            <Label textWrap = "true" fontSize= "25" class = "text-left" marginLeft = "30" marginRight = "30" marginTop = "10">
+                    <FormattedString >
+                        <Span text="Hi " color="black"  fontWeight="100"></Span>
+                        <Span text="Martin, " color="black"  fontWeight="100"></Span>
+                        <Span text="tap on a beacon " color="black" fontWeight="700"></Span>
+                        <Span text="to begin ordering"  color="black" fontWeight="700"></Span>
+        
+                    </FormattedString>
+        
+                </Label>
+                <Label fontSize = "16" color = "#888" text = "TAP ON AN ORDRUP BEACON FOUND" marginTop = "20" fontWeight = "900"></Label>
+            <!-- <Image src="~/app/images/NFCImage.png" width="80%" marginLeft = "30" marginTop = "50" (tap) = "simulateNFC()"height="auto"></Image> -->
+            <StackLayout marginTop = "50">
+                <LottieView width="300" height="300" [src]="src" [loop]="loop" [autoPlay]="autoPlay" (loaded)="lottieViewLoaded($event)" (tap) = "simulateNFC()">     </LottieView>
+            </StackLayout>
+        </FlexboxLayout>
+    </StackLayout>
+
+</StackLayout>

@@ -1,0 +1,45 @@
+<StackLayout class="page content" height="100%" backgroundColor="#222">
+
+    <FlexboxLayout justifyContent="space-between" padding="40 20 30 20">
+        <Image src="~/app/images/menu.png" width="25" height="25" (tap)=onDrawerButtonTap()></Image>
+        <FlexboxLayout margin="0" fontSize="12" height="30" width = "120" justifyContent = "center" alignItems = "center" padding="0" backgroundColor="#353434" borderRadius="50">
+            <Image src="~/app/images/bell.png" width = "25" height = "25"></Image>
+            <Label text="Call Waiter" color="white" marginLeft = "5"></Label>
+        </FlexboxLayout>
+    </FlexboxLayout>
+
+    <StackLayout paddingLeft="30" paddingRight="30" marginBottom="20">
+        <Label color="white" fontWeight="700" text="Enjoy, " fontSize="25" class="text-left" textWrap="true">
+        </Label>
+
+        <Label color = "white" fontWeight = "100"  fontSize = "25" text = "Your order is on its way!" class = "text-left" textWrap = "true"></Label>
+    </StackLayout>
+
+
+    <StackLayout height="100%" backgroundColor="#fff" borderRadius="30 30 0 0" class="text-center">
+        <Label fontSize="18" color="black" class="text-left" margin="30 30 0 30" fontWeight="700">
+            <FormattedString>
+                <Span text="ORDER SUMMARY - TABLE "></Span>
+                <Span text="5"></Span>
+            </FormattedString>
+        </Label>
+        <StackLayout *ngFor="let item of meals; let i = index" [attr.data-index] = "i">
+                <FlexboxLayout height = "auto" alignItems = "center" marginLeft = "30" marginRight = "30" class = "text-left" color = "black" orientation="horizontal" (longPress)="reportComment(i)" marginTop="10" paddingTop="10" >
+                        <StackLayout width = "66%" orientation="vertical" borderRadius="5%"  marginLeft="2%" paddingTop="5%" paddingRight="8%" paddingBottom="8%" paddingLeft="8%">
+                            <Label [text]="item.title" fontWeight="700" textWrap="true"></Label>
+                            <Label [text]="item.ingredients" textWrap="true"></Label>
+                        </StackLayout>
+                        <Label fontWeight = "700">
+                            <FormattedString>
+                                <Span text = "$"></Span>
+                                <Span [text] = "item.price"></Span>
+                            </FormattedString>
+                        </Label>
+                    </FlexboxLayout>
+        </StackLayout>
+        <StackLayout borderBottomWidth = "1" borderColor = "#DDD" width = "300"></StackLayout>
+   
+
+    </StackLayout>
+
+</StackLayout>
