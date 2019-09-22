@@ -13,14 +13,14 @@ A scalable IoT point-of-sale for local businesses that simplifies the payment an
 
 
 ## Contributors
-1. Saad Mushtaq
+1. [Saad](https://github.com/SaadBenn)
 
-2. Martin Mendoza
+2. [Carlo Dormiendo](https://github.com/carloForrest)
 
-3. Dilawer Hussein
+3. [Martin Mendoza](https://github.com/mendozanmartin)
 
-4. Wesley Slade
+4. [Kayla Bajnauth](https://github.com/kaylabajnauth)
 
-5. Kayla Bajnauth
+5. [Wes Slade](https://github.com/WesSlade)
 
-6. Carlo Dormiendo
+6. [Dilawer](https://github.com/dilawerh)
