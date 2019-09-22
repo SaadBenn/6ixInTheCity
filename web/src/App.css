@@ -1,0 +1,129 @@
+body {
+  background-color: #222;
+}
+
+.App {
+  background-color: #222;
+  height: 100vh;
+}
+
+.App-header {
+  padding: 20px 50px;
+  color: #fff;
+  padding-top:40px;
+}
+
+.containerBox {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+
+.tablesContainer {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-be;
+  flex: 3;
+  flex-wrap: wrap;
+  margin:20px;
+}
+
+.orderSummaryContainer {
+  background-color: #fff;
+  padding: 30px;
+  flex:1;
+  margin:20px;
+  border-radius:5px;
+  margin: 30px 0px;
+}
+
+.table {
+  background-color: #fff;
+  margin: 10px;
+  padding:20px;
+  flex: 1 0 21%; /* explanation below */
+  border-radius: 10px;
+
+}
+
+.table h4 {
+  margin:0;
+}
+
+.table p > span{
+  color: #E02020;
+} 
+#tableNum {
+  color: blue;
+}
+
+.tableStatus {
+  font-weight: bold;
+  margin: 0;
+  margin: 17px 15px 0px 10px;
+  /* margin-bottom: 0; */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: right;
+  color: #999;
+}
+
+.tableBtn {
+    width: 100%;
+    padding: 12px 20px !IMPORTANT;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    font-size: .9em;
+    outline: none;
+    border-radius: 50px;
+}
+
+span.statusCleanup {
+  color: grey !important;
+}
+
+span.statusOccupied {
+  color: green !important;
+}
+
+span.statusAvailable {
+  color: blue !important;
+}
+
+button {
+  outline: none;
+}
+
+span#ball {
+  width: 35px;
+  height: 35px;
+  background-color: #5ae084;
+  margin-right: 13px;
+  border-radius: 40px;
+  display: inline-flex;
+  position: relative;
+  top: 9px;
+}
+
+button.btn.btn-link {
+  color: red;
+}
+
+button.orderBtn {
+  border-radius: 50px;
+  padding: 7px 20px;
+  margin-right: 10px;
+  background-color: #ff0607;
+  color: #fff;
+  border: 0;
+}
+
+.namePrice {
+  text-align: right;
+  margin-left: 550px;
+  color: #222;
+}
