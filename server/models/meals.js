@@ -5,13 +5,23 @@ const Schema = mongoose.Schema;
 * this file creates a model/schema for different endpoints
  */
 
+console.log('before In the model');
 const mealSchema = new Schema({
-	food: {
-		title: String,
-		ingredients: Array,
-		price: String
+	title: {
+		type: String,
+		required: true
+	},
+	ingredients: {
+		type: Array,
+		required: true	
+	},
+	price: {
+		type: String,
+		required: true
 	}
 });
+
+console.log('after the model');
 
 //create a model
 //first arguement is name of our model(always use a singular)
