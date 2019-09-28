@@ -16,14 +16,14 @@ Screen design             |  Screen design
 
 
 ## Contributors
-1. [Saad](https://github.com/SaadBenn)
+1. [Saad](https://github.com/SaadBenn) -> **Lead Developer**
 
-2. [Carlo Dormiendo](https://github.com/carloForrest)
+2. [Carlo Dormiendo](https://github.com/carloForrest) -> **UX Designer**
 
-3. [Martin Mendoza](https://github.com/mendozanmartin)
+3. [Martin Mendoza](https://github.com/mendozanmartin) -> **Frontend Developer**
 
-4. [Kayla Bajnauth](https://github.com/kaylabajnauth)
+4. [Kayla Bajnauth](https://github.com/kaylabajnauth) -> **UX Designer**
 
-5. [Wes Slade](https://github.com/WesSlade)
+5. [Wes Slade](https://github.com/WesSlade) -> **UX Designer**
 
-6. [Dilawer](https://github.com/dilawerh)
+6. [Dilawer](https://github.com/dilawerh) -> **UX Designer + Frontend Developer**
