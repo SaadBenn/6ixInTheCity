@@ -11,8 +11,8 @@ A scalable IoT point-of-sale for local businesses that simplifies the payment an
 
 Screen design             |  Screen design
 :-------------------------:|:-------------------------:
-![Order Summary](https://github.com/SaadBenn/6ixInTheCity/blob/master/Order%20Summary%20-%20Verified.png)  |  ![Waiter taking order](https://github.com/SaadBenn/6ixInTheCity/blob/master/Order%20Summary%20-%20Waiter%20taking%20order.png)
-![Payment](https://github.com/SaadBenn/6ixInTheCity/blob/master/Payment.png) | ![Tap Dat App](https://github.com/SaadBenn/6ixInTheCity/blob/master/Tap%20Beacon.png)
+![Tap Dat App](https://github.com/SaadBenn/6ixInTheCity/blob/master/Tap%20Beacon.png) | ![Waiter taking order](https://github.com/SaadBenn/6ixInTheCity/blob/master/Order%20Summary%20-%20Waiter%20taking%20order.png)
+![Order Summary](https://github.com/SaadBenn/6ixInTheCity/blob/master/Order%20Summary%20-%20Verified.png) | ![Payment](https://github.com/SaadBenn/6ixInTheCity/blob/master/Payment.png)
 
 
 ## Contributors
