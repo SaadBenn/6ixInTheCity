@@ -24,3 +24,7 @@ Screen design             |  Screen design
 |[Kayla Bajnauth](https://github.com/kaylabajnauth)  | UX Designer                       |
 |[Wes Slade](https://github.com/WesSlade)            | UX Designer                       |
 |[Dilawer](https://github.com/dilawerh)              | UX Designer + Frontend Developer |
+
+
+### Demo
+![Demo](https://github.com/SaadBenn/6ixInTheCity/blob/master/6ixIntheCity.gif)
