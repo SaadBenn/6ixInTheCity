@@ -27,4 +27,6 @@ Screen design             |  Screen design
 
 
 ### Demo
+**Note: this demo is not a representation of the entire app. It just shows how OrdrUp can interact with a beacon that contains NFC shields**
+
 ![Demo](https://github.com/SaadBenn/6ixInTheCity/blob/master/6ixIntheCity.gif)
