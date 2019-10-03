@@ -33,7 +33,7 @@ module.exports = {
 					res.status(200).json({
 						success: true,
 						info: "Successfuly retrieved the meals",
-						meals: mealsJSON
+						meals: meals
 
 					});
 				}

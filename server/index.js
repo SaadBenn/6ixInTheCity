@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const errorHandler = require('errorhandler');
 
-const uri = "mongodb+srv://user1:rockstar0560@cluster0-3mvfx.mongodb.net/test?retryWrites=true&w=majority";
+const uri = "mongodb+srv://<user>:<password>@cluster0-3mvfx.mongodb.net/6ixInTheCity?retryWrites=true&w=majority";
 mongoose.connect(uri, {
 	useUnifiedTopology: true,
 	useNewUrlParser: true
@@ -31,7 +31,7 @@ app.use('/meals', require('./routes/meals'));
 console.log('after app.use in index.js');
 
 // start the server
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 8000;
 
 var server = app.listen(port, () => console.log(`Server running on port ${port}`));
 
