@@ -11,7 +11,7 @@
     "react-dom": "^16.9.0",
     "react-google-sheets": "^0.4.0",
     "react-post": "^1.0.3",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "react-svg": "^10.0.21",
     "reactstrap": "^8.0.1"
   },
